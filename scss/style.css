@@ -310,7 +310,7 @@ header .navbar-right a {
 
 .four {
   background: url(../img/Rectangle4141.png);
-  width: 1770;
+  width: 1770px;
   height: 700px;
 }
 
@@ -395,6 +395,7 @@ header .navbar-right a {
   font-weight: 400;
   position: relative;
   top: 118px;
+  left: px;
 }
 
 .five .image {
@@ -407,7 +408,7 @@ header .navbar-right a {
 }
 
 .five .text {
-  width: 445px;
+  width: 665px;
   height: 245px;
   background: #333333;
   padding: 20px;
@@ -429,6 +430,70 @@ header .navbar-right a {
 }
 
 .five .text p {
+  font-size: 14px;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  color: #fff;
+  line-height: 24px;
+  position: relative;
+  top: 50px;
+}
+
+.five .text p::before {
+  content: '\201c';
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Times New Roman', serif;
+  color: #171717;
+  font-family: "FontAwesome";
+  color: #5474fd;
+  vertical-align: super;
+  line-height: 0.722;
+  text-align: left;
+}
+
+footer {
+  background: #232323;
+  width: 1770px;
+  height: 270px;
+}
+
+footer h1 {
+  font-size: 24px;
+  font-family: "Josefin Sans";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.083;
+  text-align: left;
+  position: absolute;
+  left: 816.141px;
+  top: 4105.004px;
+}
+
+footer p {
   font-size: 16px;
+  font-family: "Josefin Sans";
+  color: white;
+  line-height: 1.625;
+  text-align: center;
+  position: relative;
+  left: 5px;
+  top: 155px;
+}
+
+footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 190px;
+  left: 20px;
+}
+
+footer .social {
+  padding: 9px;
 }
 /*# sourceMappingURL=style.css.map */

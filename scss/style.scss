@@ -236,33 +236,32 @@ header{
       position: relative;
       left: 310px;
       top: 230px;
-      
-      h2{
-         font-size: 20px;
-         font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(232, 232, 232);
-         line-height: 1.3;
-         text-align: left;
-         position: relative;
-         top: 50px;
+   h2{
+      font-size: 20px;
+      font-family: "Josefin Sans";
+      font-weight: 300;
+      color: rgb(232, 232, 232);
+      line-height: 1.3;
+      text-align: left;
+      position: relative;
+      top: 50px;
       }
-      h1{
-         position: relative;
-         top: 90px;
-         font-weight: 300;
+   h1{
+      position: relative;
+      top: 90px;
+      font-weight: 300;
       }
-      p{
-         position: relative;
-         top: 130px;
-         font-size: 16px;
-         font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(232, 232, 232);
-         line-height: 1.625;
-         text-align: left; 
+   p{
+      position: relative;
+      top: 130px;
+      font-size: 16px;
+      font-family: "Josefin Sans";
+      font-weight: 300;
+      color: rgb(232, 232, 232);
+      line-height: 1.625;
+      text-align: left; 
       }
-      button{
+   button{
       position: relative;
       top: 160px;
       background-color: rgb(84, 116, 253);
@@ -278,10 +277,10 @@ header{
    }
 }
 .four{
-   background: url(../img/Rectangle4141.png);
-   width: 1770;
-   height: 700px;
-   img {vertical-align: middle;}  
+      background: url(../img/Rectangle4141.png);
+      width: 1770px;
+      height: 700px;
+       img {vertical-align: middle;}  
    .text{
       width: 540px;
       height: 370px;
@@ -293,55 +292,56 @@ header{
       top: 230px;
       left: 901px;
       h2{
-         font-size: 20px;
-         font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(232, 232, 232);
-         line-height: 1.3;
-         text-align: left;
-         position: relative;
-         top: 30px;
+      font-size: 20px;
+      font-family: "Josefin Sans";
+      font-weight: 300;
+      color: rgb(232, 232, 232);
+      line-height: 1.3;
+      text-align: left;
+      position: relative;
+      top: 30px;
       }
       h1{
-         font-size: 20px;
-         font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(254, 254, 254);
-         text-transform: uppercase;
-         line-height: 1.3;
-         text-align: left;
-         position: relative;
-         top: 80px;
+      font-size: 20px;
+      font-family: "Josefin Sans";
+      font-weight: 300;
+      color: rgb(254, 254, 254);
+      text-transform: uppercase;
+      line-height: 1.3;
+      text-align: left;
+      position: relative;
+      top: 80px;
       }
       p{
-         position: relative;
-         top: 120px;
-         font-size: 16px;
-         font-weight: 300;
-         font-family: "Josefin Sans";
-         color: rgb(232, 232, 232);
-         line-height: 1.625;
-         text-align: left;
+      position: relative;
+      top: 120px;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "Josefin Sans";
+      color: rgb(232, 232, 232);
+      line-height: 1.625;
+      text-align: left;
       }
       button{
-         position: relative;
-         top: 160px;
-         background-color: rgb(84, 116, 253);
-         width: 220px;
-         height: 50px;
-         font-size: 16px;
-         color: rgb(255, 255, 255);
-         text-transform: uppercase;
-         line-height: 1.625;
-         text-align: center;
-         font-family: "Aleo";
+      position: relative;
+      top: 160px;
+      background-color: rgb(84, 116, 253);
+      width: 220px;
+      height: 50px;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.625;
+      text-align: center;
+      font-family: "Aleo";
       }
    }
-}
+   }
+
 .five{
-   width: 1770px;
-   height: 731px;
-   background: url(../img/Rectangle4142.png);
+      width: 1770px;
+      height: 731px;
+      background: url(../img/Rectangle4142.png);
    h1{
       font-size: 36px;
       font-family: "Aleo";
@@ -351,39 +351,93 @@ header{
       font-weight: 400;
       position: relative;
       top: 118px;
+      left: px;
    }
       .image{
-         width: 445px;
-         height: 284px;
-         background: url(../img/Rectangle41441.png);
-         position: relative;
-         top: 245px;
-         left: 330px;
+      width: 445px;
+      height: 284px;
+      background: url(../img/Rectangle41441.png);
+      position: relative;
+      top: 245px;
+      left: 330px;
       }
       .text{
-         width: 445px;
-         height: 245px;
-         background: #333333;
-         padding: 20px;
-         position: relative;
-         left: 770px;
-         bottom: 40px;
-         h1{
-            font-size: 20px;
-            font-family: "Josefin Sans";
-            font-weight: 300;
-            color: rgb(254, 254, 254);
-            text-transform: uppercase;
-            line-height: 1.3;
-            text-align: left;
-            position: relative;
-            top: 20px;
-         }
-         p{
-            font-size: 16px;
-         }
-
-   
+      width: 665px;
+      height: 245px;
+      background: #333333;
+      padding: 20px;
+      position: relative;
+      left: 770px;
+      bottom: 40px;
+      h1{
+      font-size: 20px;
+      font-family: "Josefin Sans";
+      font-weight: 300;
+      color: rgb(254, 254, 254);
+      text-transform: uppercase;
+      line-height: 1.3;
+      text-align: left;
+      position: relative;
+      top: 20px;
       }
+   p{
+      font-size: 14px;
+      font-family: "Josefin Sans";
+      font-weight: 300;
+      color: #fff;
+      line-height: 24px;
+      position: relative;
+      top: 50px;
+      }
+      p::before{
+      content:'\201c';
+      font-size: 60px;
+      font-weight: 700;
+      font-family: 'Times New Roman', serif;
+      color: rgb(23, 23, 23);
+      font-family: "FontAwesome";
+      color: rgb(84, 116, 253);
+      vertical-align: super;
+      line-height: 0.722;
+      text-align: left;
+      }
+   }
+}
+   footer{
+      background: #232323;
+      width: 1770px;
+      height: 270px;
+    h1{
+      font-size: 24px;
+      font-family: "Josefin Sans";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.083;
+      text-align: left;
+      position: absolute;
+      left: 816.141px;
+      top: 4105.004px;
+      }
+      p{
+      font-size: 16px;
+      font-family: "Josefin Sans";
+      color: rgb(255, 255, 255);
+      line-height: 1.625;
+      text-align: center;
+      position: relative;
+      left: 5px;
+      top: 155px;
+      }
+      .contact{
+      display:flex;
+      justify-content:center;
+      position: relative;
+      top: 190px;
+      left:20px;
+      
+   }
+   .social{
+      padding: 9px;
+   }
    
 }

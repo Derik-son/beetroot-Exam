@@ -55,6 +55,8 @@ header{
       height: 44px;
       color: #fff;
       position: absolute;
+      font-size: 14px;
+      font-family: "Aleo";
       background-color: #5474fd;
       border: 2px solid #fff;
       left:1050px ;
@@ -218,6 +220,10 @@ header{
       border-bottom:1px solid #333333;
       border-left: 1px solid #333333;
       border-right:1px solid #333333;
+   }
+   figure img{
+      padding-left: 60px;
+      padding-bottom: 20px;
    }
 
 }
@@ -433,11 +439,11 @@ header{
       justify-content:center;
       position: relative;
       top: 190px;
-      left:20px;
+      left:8px;
       
    }
    .social{
-      padding: 9px;
+      padding: 10px;
    }
    
 }

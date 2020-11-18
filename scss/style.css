@@ -4,7 +4,8 @@
 }
 
 header {
-  width: 100vw;
+  width: 1770px;
+  min-width: 100vw;
   height: 820px;
   background: url(../img/header.png) no-repeat;
 }
@@ -35,7 +36,7 @@ header p {
 
 header form input {
   width: 480px;
-  height: 42px;
+  height: 46px;
   text-align: center;
   border: 1px solid #fff;
   position: absolute;
@@ -57,32 +58,62 @@ header input::-webkit-input-placeholder {
 
 header form button {
   width: 140px;
-  height: 44px;
+  height: 48px;
   color: #fff;
   position: absolute;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Aleo";
-  background-color: #5474fd;
+  background-color: #044782;
   border: 2px solid #fff;
   left: 1050px;
   top: 421.501px;
   float: right;
 }
 
+header form button .fa {
+  font-size: 20px;
+}
+
 header .scroller p {
   color: #fff;
   position: absolute;
-  top: 570px;
+  top: 650px;
   left: 820px;
   font-weight: 300;
 }
 
+header .fa-chevron-down {
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  padding: 20px 40px;
+  position: absolute;
+  top: 680px;
+  left: 846px;
+}
+
 header .navbar {
-  background-color: #5474fd;
+  background-color: #313c6e;
   position: absolute;
   top: 740px;
   width: 1770px;
   height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .navbar li {
+  list-style-type: none;
+  padding-left: 20px;
 }
 
 header .navbar .logo {
@@ -147,7 +178,7 @@ header .navbar-right a {
 }
 
 .one button {
-  background-color: #5474fd;
+  background-color: #313c6e;
   position: absolute;
   left: 345px;
   top: 1328px;
@@ -304,7 +335,7 @@ header .navbar-right a {
 .three .text button {
   position: relative;
   top: 160px;
-  background-color: #5474fd;
+  background-color: #ad6745;
   width: 220px;
   height: 50px;
   font-size: 16px;
@@ -330,7 +361,7 @@ header .navbar-right a {
   height: 370px;
   background: black;
   /* Fallback color */
-  background: rgba(35, 35, 35, 0.9);
+  background: rgba(35, 35, 35, 0.7);
   /* Black background with 0.5 opacity */
   color: #f1f1f1;
   padding: 20px;
@@ -376,7 +407,7 @@ header .navbar-right a {
 .four .text button {
   position: relative;
   top: 160px;
-  background-color: #5474fd;
+  background-color: #ea7d4f;
   width: 220px;
   height: 50px;
   font-size: 16px;

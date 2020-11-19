@@ -3,13 +3,18 @@
    padding: 0;
    scroll-behavior: smooth;
 }
-
+@media screen and (min-width: 1200px) {
 header{
    position: relative;
-   width: 1770px;
-   min-width: 100vw;
-   height: 820px;
-   background: url(../img/header.png) no-repeat;
+   width: 100vw;
+   height: 100vh;
+   max-width: 1770px;
+   min-width: 1200px;
+   max-height: 820px;
+   min-height: 768px;
+   background: url(../img/header.png);
+   background-position: center;
+   margin: auto;
 
    h1{
       font-size: 48px;
@@ -19,8 +24,10 @@ header{
       line-height: 0.542;
       text-align: center;
       position: absolute;
-      left: 738.281px;
-      top: 270px;
+      top: 33%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
    }
    p{
       font-size: 22px;
@@ -30,18 +37,25 @@ header{
       text-align: center;
       letter-spacing: 4px;
       position: absolute;
-      left: 741.656px;
-      top: 320px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+      top: 39%;
    }
    
+   
    form input{
-      width: 480px;
+      width: 450px;
       height: 46px;
       text-align: center;
       border: 1px solid #fff;
       position: absolute;
-      left: 567.799px;
-      top: 421.501px;
+      left: 47%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      top: 47%;
+      -webkit-transition: ease-in-out .1s;
+      transition: ease-in-out .1s;
    }
    input::-webkit-input-placeholder{
       font-size: 14px;
@@ -49,9 +63,6 @@ header{
       color: rgb(153, 153, 153);
       text-align: center;
       letter-spacing: 1px;
-      position: absolute;
-      left: 700.14px;
-      top: 421.501px;
       z-index: 93;
    }
    form button{
@@ -63,8 +74,8 @@ header{
       font-family: "Aleo";
       background-color: #044782;
       border: 2px solid #fff;
-      left:1050px ;
-      top: 421.501px;
+      left:59.7% ;
+      top: 47%;
       float: right;
 
       .fa{
@@ -74,8 +85,8 @@ header{
    .scroller p{
       color: #fff;
       position: absolute;
-      top: 650px;
-      left: 820px;
+      top: 80%;
+      left: 50%;
       font-weight: 300; 
       margin: auto;
    }
@@ -85,25 +96,27 @@ header{
       color: #ffffff;
       padding: 20px 40px;
       position: absolute;
-      top: 680px;
-      left: 846px;
+   
+      top: 82%;
+      left: 47%;
    }
    .navbar{
       background-color:rgb(49, 60, 110);
       position:absolute;
-      top: 740px;
-      width: 1770px;
-      height: 80px;
+      top: 90%;
+      width: 100%;
+      height: 10%;
       display: flex;
-         ul{
+      ul{
+         
          display: flex;
          justify-content: space-around;
-         }
-         li{
+      }
+      li{
          list-style-type: none;
          padding-left: 20px;
-         }
       }
+   }
 
    .navbar .logo{
       font-size: 24px;
@@ -112,15 +125,15 @@ header{
       color: rgb(255, 255, 255);
       text-transform: uppercase;
       text-decoration: none;
-      text-align: left;
+      margin: 0;
       position: absolute;
-      top: 32px;
-      left: 325px;
+      left: 15%;
+      top: 40%;
    }
    .navbar-right{
       position: absolute;
-      top: 32px;
-      left: 1100px;
+      top: 40%;
+      left: 65%;
       a{
          color: #fff;
          font-size: 14px;
@@ -134,96 +147,108 @@ header{
 }
    .one{
       position: relative;
-      width: 1770px;
+      width: 100vw;
       height: 685px;
+      max-width: 1770px;
+      min-width: 1200px;
       background: url(../img/Rectangle7.png);
-
-      h1{
-         font-size: 36px;
-         font-family: 'Aleo', serif;
-         font-weight: 400;
-         color: rgb(255, 255, 255);
-         line-height: 0.722;
-         text-align: left;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: auto;
+      .text{
          position: absolute;
-         left: 344.844px;
-         top: 200.81px;
+         top: 175px;
+         left: 18%;
+         width: 30.5%;
+         height: 350px;
+         h1{
+            font-size: 36px;
+            font-family: 'Aleo', serif;
+            font-weight: 400;
+            color: rgb(255, 255, 255);
+            line-height: 0.722;
+            cursor: default;
+            margin-bottom: 80px;
+         }
+         p{
+            font-size: 16px;
+            font-family: "Josefin Sans";
+            font-weight: 300;
+            color: rgb(232, 232, 232);
+            line-height: 1.625;
+            text-align: left;
+            margin-bottom: 50px;
+            cursor: default;
+         }
+         button{
+            background-color: rgb(49, 60, 110);
+            
+            width: 42%;
+            height: 60px;
+            border: none;
+            font-size: 16px;
+            font-family: "Aleo";
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            line-height: 1.625;
+            text-align: center;
+            cursor: pointer;
+         }
       }
-      p{
-         font-size: 16px;
-         font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(232, 232, 232);
-         line-height: 1.625;
-         text-align: left;
-         position: absolute;
-         left: 344.141px;
-         top: 280px;
-         width: 530px;
-         height: 146px;
-      }
-   button{
-      background-color: rgb(49, 60, 110);
-      position: absolute;
-      left: 345px;
-      top: 500px;
-      width: 225px;
-      height: 60px;
-      font-size: 16px;
-      font-family: "Aleo";
-      color: rgb(255, 255, 255);
-      text-transform: uppercase;
-      line-height: 1.625;
-      text-align: center;
-   }
+      
    .photo1{
-      width:350px;
-      height: 220px;
-      background: url(../img/3.png);
       position: absolute;
       top: 120px;
-      left: 960px;
+      right: 22%;
+      width: 350px;
+      height: 220px;
+      background: url(../img/3.png);
    }
    .photo2{
-      width:350px;
-      height: 220px;
-      background: url(../img/4.png);
       position: absolute;
       top: 345px;
-      left: 1090px;
+      right: 15%;
+      width: 350px;
+      height: 220px;
+      background: url(../img/4.png);
    }
 }
    .two{
       position: relative;
-      width: 1770px;
+      width: 100vw;
       height: 340px;
+      max-width: 1770px;
+      min-width: 1200px;
       background-color: #333333;
+      margin: auto;
+
       .grid-container{
-         width: 1050px;
+         width: 80%;
          height: 200px;
          display: grid;
-         grid-template-columns: 200px 200px 200px;
-         gap: 250px;
+         grid-template-columns: 3fr 3fr 3fr;
+         gap: 3%;
          background-color: #333333;
          align-items: center;
          position: absolute;
          top: 120px;
-         left: 300px;
+         left: 12%;
       }
+      
    figcaption{
       font-size: 32px;
       font-family: "Aleo";
       color: rgb(232, 232, 232);
       text-align: center;
-      align-items: center;
+      
       z-index: 5;
    }
    .doted{
       position: absolute;
       top: 34px;
-      left: 400px;
+      left: 24%;
       display:block;
-      width: 400px;
+      width: 26%;
       height:300px;
       border-style: dotted;
       border-radius:60%;
@@ -236,9 +261,9 @@ header{
    .doted-2{
       position: absolute;
       top: 34px;
-      left: 860px;
+      left: 52%;
       display:block;
-      width: 400px;
+      width: 26%;
       height:300px;
       border-style: dotted;
       border-radius:60%;
@@ -248,27 +273,32 @@ header{
       border-right:1px solid #333333;
       z-index: 0;
    }
-   figure img{
-      padding-left: 60px;
-      padding-bottom: 20px;
-   }
+      figure img{
+         padding-left: 40%;
+      }
 }
 
    .three{
-      width: 1770px;
+      position: relative;
+      width: 100vw;
       height: 700px;
+      max-width: 1770px;
+      min-width: 1200px;
       background: url(../img/Rectangle414.png);
       img {vertical-align: middle;}
+      margin: auto;
       .text{
          width: 540px;
          height: 370px;
          background: rgb(0, 0, 0); /* Fallback color */
          background: rgba(35, 35, 35, 0.8); /* Black background with 0.5 opacity */
          color: #f1f1f1;
-         padding: 20px;
-         position: relative;
-         left: 310px;
+         position: absolute;
+         width: 30%;
+         height: 370px;
+         left: 15%;
          top: 230px;
+         padding: 30px;
       h2{
          font-size: 20px;
          font-family: "Josefin Sans";
@@ -276,43 +306,48 @@ header{
          color: rgb(232, 232, 232);
          line-height: 1.3;
          text-align: left;
-         position: relative;
-         top: 50px;
+         margin-bottom: 5%;
       }
        h1{
-         position: relative;
-         top: 90px;
-         font-weight: 300;
+         font-size: 20px;
+         font-family: "Josefin Sans";
+         color: white;
+         text-transform: uppercase;
+         line-height: 1.3;
+         margin-bottom: 5%;
+         cursor: default;
       }
        p{
-         position: relative;
-         top: 130px;
          font-size: 16px;
          font-family: "Josefin Sans";
          font-weight: 300;
          color: rgb(232, 232, 232);
          line-height: 1.625;
          text-align: left; 
+         margin-bottom: 10%;
       }
       button{
-         position: relative;
-         top: 160px;
-         background-color: #ad6745;
-         width: 220px;
-         height: 50px;
          font-size: 16px;
-         color: rgb(255, 255, 255);
-         text-transform: uppercase;
-         line-height: 1.625;
-         text-align: center;
          font-family: "Aleo";
+         color: white;
+         text-transform: uppercase;
+         text-align: center;
+         background-color: #ad6745;
+         width: 225px;
+         height: 60px;
+         border: none;
+         cursor: pointer;
       }
    }
 }
 .four{
       background: url(../img/Rectangle4141.png);
-      width: 1770px;
+      position: relative;
+      width: 100vw;
       height: 700px;
+      max-width: 1770px;
+      min-width: 1200px;
+      margin: auto;
        img {vertical-align: middle;}  
       .text{
          width: 540px;
@@ -320,107 +355,116 @@ header{
          background: rgb(0, 0, 0); /* Fallback color */
          background: rgba(35, 35, 35, 0.7); /* Black background with 0.5 opacity */
          color: #f1f1f1;
-         padding: 20px;
-         position: relative;
-         top: 230px;
-         left: 901px;
+         position: absolute;
+         width: 30%;
+         height: 370px;
+         right: 15%;
+         bottom: 100px;
+         padding: 30px;
       h2{
          font-size: 20px;
          font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(232, 232, 232);
+         color: #e8e8e8;
          line-height: 1.3;
          text-align: left;
-         position: relative;
-         top: 30px;
+         cursor: default;
+         margin-bottom: 5%;
       }
       h1{
          font-size: 20px;
          font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(254, 254, 254);
+         color: white;
          text-transform: uppercase;
          line-height: 1.3;
          text-align: left;
-         position: relative;
-         top: 80px;
+         margin-bottom: 5%;
+         cursor: default;
       }
       p{
-         position: relative;
-         top: 120px;
          font-size: 16px;
-         font-weight: 300;
          font-family: "Josefin Sans";
-         color: rgb(232, 232, 232);
+         color: #e8e8e8;
          line-height: 1.625;
+         font-weight: 300;
          text-align: left;
+         margin-bottom: 10%;
+         cursor: default;
       }
       button{
-         position: relative;
-         top: 160px;
          background-color: #ea7d4f;
-         width: 220px;
-         height: 50px;
          font-size: 16px;
-         color: rgb(255, 255, 255);
-         text-transform: uppercase;
-         line-height: 1.625;
-         text-align: center;
          font-family: "Aleo";
+         color: white;
+         text-transform: uppercase;
+         text-align: center;
+         width: 225px;
+         height: 60px;
+         border: none;
+         cursor: pointer;
       }
    }
 }
 
 .five{
-      width: 1770px;
-      height: 731px;
+      position: relative;
+      width: 100vw;
+      height: 730px;
+      max-width: 1770px;
+      min-width: 1200px;
       background: url(../img/Rectangle4142.png);
+      background-position: center;
+      background-size: cover;
+      margin: auto;
+      .image{
+         width: 25%;
+         height: 284px;
+         background: url(../img/Rectangle41441.png);
+         position: absolute;
+         top: 245px;
+         left: 19%;
+      }
       h1{
          font-size: 36px;
          font-family: "Aleo";
-         color: rgb(255, 255, 255);
-         line-height: 0.722;
+         color: white;
+         line-height: 1;
          text-align: center;
-         font-weight: 400;
-         position: relative;
-         top: 118px;
-         left: px;
+         position: absolute;
+         top: 20px;
+         left: 40%;
+         margin: 0;
+         cursor: default;
       }
-   .image{
-      width: 445px;
-      height: 284px;
-      background: url(../img/Rectangle41441.png);
-      position: relative;
-      top: 245px;
-      left: 330px;
-   }
+      
    .text{
-      width: 665px;
+      width: 38%;
       height: 245px;
       background: #333333;
       padding: 20px;
-      position: relative;
-      left: 770px;
-      bottom: 40px;
+      position: absolute;
+      left: 43%;
+      top: 245px;
       h1{
+         
          font-size: 20px;
          font-family: "Josefin Sans";
-         font-weight: 300;
-         color: rgb(254, 254, 254);
+         color: #fefefe;
          text-transform: uppercase;
          line-height: 1.3;
          text-align: left;
-         position: relative;
-         top: 20px;
+         font-weight: 300;
+         cursor: default;
       }
       p{
-         font-size: 14px;
+         display: block;
+         font-size: 16px;
          font-family: "Josefin Sans";
-         font-weight: 300;
-         color: #fff;
-         line-height: 24px;
-         position: relative;
-         top: 50px;
+         color: #fefefe;
+         line-height: 1.5;
+         text-align: left;
+         font-weight: 200;
+         padding: 7%;
+         cursor: default;
       }
       p::before{
          content:'\201c';
@@ -438,42 +482,52 @@ header{
 }
    footer{
       background: #232323;
-      width: 1770px;
-      height: 270px;
+      background-position: center;
+      background-size: cover;
+      margin: auto;
+      position: relative;
+      width: 100vw;
+      height: 268px;
+      max-width: 1770px;
+      min-width: 1200px;
       h1{
          font-size: 24px;
          font-family: "Josefin Sans";
-         color: rgb(255, 255, 255);
+         color: white;
+         font-weight: bold;
          text-transform: uppercase;
-         line-height: 1.083;
-         text-align: left;
+         text-align: center;
          position: absolute;
-         left: 816.141px;
-         top: 4105.004px;
-      }
+         top: 120px;
+         left: 45%;
+         margin: 0;
+         }
       p{
          font-size: 16px;
          font-family: "Josefin Sans";
-         color: rgb(255, 255, 255);
-         line-height: 1.625;
+         color: white;
          text-align: center;
-         position: relative;
-         left: 5px;
+         position: absolute;
          top: 155px;
-      }
+         left: 45%;
+         }
    .contact{
-      display:flex;
-      justify-content:center;
-      position: relative;
-      top: 190px;
-      left:8px;
-   }
-   .social{
-      padding: 10px;
+         ul{
+         position: absolute;
+         top: 200px;
+         left: 45.5%;
+         list-style-type: none;
+         display: -ms-grid;
+         display: grid;
+         -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+         gap: 12px;
+         justify-items: center;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         align-items: center;
+         }
+      }
    }
 }
-@media only screen and (max-device-width: 480px) {
-
-   }
    
-

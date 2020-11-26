@@ -1,0 +1,41 @@
+.two{
+   position: relative;
+   width: 100vw;
+   height: 812px;
+   max-width: 375px;
+   
+   background: linear-gradient(#333333, #000000);
+   margin: auto;
+
+   .grid-container{
+     
+      
+      align-items: center;
+      position: absolute;
+      left: 13%;
+      
+      .grid-item1{
+         margin-top: 35% ;
+      }
+      .grid-item2{
+         margin-top: 35%;
+      }
+      .grid-item3{
+         margin-top: 35%;
+      }
+   }
+   
+figcaption{
+   font-size: 48px;
+   font-family: "Aleo";
+   color: rgb(232, 232, 232);
+   text-align: center;
+   cursor: default;
+   
+}
+
+   figure img{
+      padding-left: 40%;
+
+   }
+}

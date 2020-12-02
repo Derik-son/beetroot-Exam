@@ -500,7 +500,7 @@
     margin: auto;
     position: relative;
     width: 100vw;
-    height: 268px;
+    height: 250px;
     max-width: 1770px;
     min-width: 1200px;
   }
@@ -1037,6 +1037,7 @@
     width: 100vw;
     height: 150px;
     max-width: 375px;
+    overflow: hidden;
   }
   footer h1 {
     font-size: 34px;

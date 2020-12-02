@@ -1,3 +1,4 @@
+@media screen and (max-width:375px){
 .two{
    position: relative;
    width: 100vw;
@@ -31,10 +32,12 @@ figcaption{
    color: rgb(232, 232, 232);
    text-align: center;
    cursor: default;
+   
 }
 
    figure img{
       padding-left: 40%;
 
    }
+}
 }

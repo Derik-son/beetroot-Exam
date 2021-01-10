@@ -1,0 +1,40 @@
+
+/*===========Desctop First=========== */
+@media only screen and (max-width: 1200px) {
+   body{
+    overflow-x:hidden ;
+   }
+   .one .photo1{
+      left: 50%;
+   }
+   .one .text{
+      font-size: 30px;
+   }
+   .one .text button{
+      position: none;
+      width: 200px; 
+      height: 600px ;
+   }
+}
+
+/*  Medium  Devices, Desctop */
+@media only screen and (max-width:992px) {
+   /* */
+}
+
+/* Small Devices,  Tablets   */
+@media only screen and (max-width:768px) {
+   /* */
+}
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width:480px) {
+   /* */
+}
+
+/* Custom,  iphone   Retina  */
+@media only screen and (max-width:320px) {
+   /* */
+}
+
+
